@@ -21,7 +21,8 @@ public class ConversionServer {
             
             System.out.println("Serveur RMI pret et en attente de connexions");
             System.out.println("URL: rmi://localhost:1099/ConversionService");
-            System.out.println("Pour arreter le serveur, appuyez sur Ctrl+C");
+            System.out.println("Pour arreter le serveur, appuyez sur Ctrl+C");# Pousser le code vers GitHub
+git push -u origin main
             
             // Garder le serveur actif
             while(true) {
